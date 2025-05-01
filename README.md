@@ -14,7 +14,7 @@ O trabalho consiste na implementação de **5 algoritmos de grafos**, cada um em
   2. **Prim** (Árvore Geradora Mínima)
   3. **Kruskal** (Árvore Geradora Mínima)
   4. **Dijkstra** (Caminho Mínimo)
-  5. **Algoritmo de livre escolha** (não pode ser BFS, DFS ou Ordenação Topológica)
+  5. **Algoritmo de livre escolha** (Bellman-Ford)
 
 - Cada algoritmo possui sua **própria pasta**, contendo:
   - O código-fonte
