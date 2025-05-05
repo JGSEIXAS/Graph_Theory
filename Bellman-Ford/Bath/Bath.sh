@@ -1,6 +1,5 @@
 bellman=./Bellman-Ford.bin
 
-
 echo "Testando algoritmo de Bellman"
 for i in instances/*.dat
 do
