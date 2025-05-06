@@ -1,6 +1,6 @@
 #!/bin/bash
-
 # Binários
+sed -i 's/\r$//' "$0"
 kosaraju=./kosaraju.bin
 prim=./prim.bin
 kruskal=./kruskal.bin

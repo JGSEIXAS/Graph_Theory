@@ -1,3 +1,5 @@
+#!/bin/bash
+sed -i 's/\r$//' "$0"
 bellman=./Bellman-Ford.bin
 
 echo "Testando algoritmo de Bellman-Ford"
