@@ -1,4 +1,7 @@
 # 📊 Teoria dos Grafos — Implementação de Algoritmos
+![C++](https://img.shields.io/badge/C%2B%2B-17-blue?logo=c%2B%2B&logoColor=white)
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![Algoritmos](https://img.shields.io/badge/Algoritmos-Grafos-orange)
 
 Este repositório contém a implementação de algoritmos clássicos de Teoria dos Grafos em C++, desenvolvidos como parte da 2ª VA da disciplina.
 
@@ -76,9 +79,9 @@ Cada pasta possui um **README** com detalhes de como compilar, executar e testar
 
 ### Compilação e Execução
 
+```bash
 1. Navegue até a pasta do algoritmo desejado:
 
-```bash
 cd Kruskal/
 
 Compile o programa usando o Makefile:
@@ -100,8 +103,8 @@ Execute o programa com os parâmetros necessários:
   Executando o Bath.sh
     cd Bellman-Ford/
     bash Bath.sh
-
+```
 
 👨‍💻 Desenvolvedores :octocat:
-João Gabriel Seixas Santos
-Marcos Mendonça
+**João Gabriel Seixas Santos**
+**Marcos Mendonça**
