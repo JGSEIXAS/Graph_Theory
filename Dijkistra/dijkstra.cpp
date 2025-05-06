@@ -39,9 +39,14 @@ void dijkstra(int V, const vector<pair<int, int>> adj[], int origem, FILE* saida
         }
     }
 
-    for (int i = 0; i < V; ++i) {
-        fprintf(saida, "%d: %d\n", i + 1, (dist[i] == INF ? -1 : dist[i]));
+    for (int i = 0; i < V; i++) {
+        fprintf(saida, "%d:%d", i + 1, (dist[i] == INF ? -1 : dist[i]));
+        if (i != V - 1) {
+            fprintf(saida, " ");
+        }
     }
+    fprintf(saida, "\n");
+    
 }
 
 int main(int argc, char* argv[]) {

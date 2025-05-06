@@ -1,11 +1,11 @@
 bellman=./Bellman-Ford.bin
 
-echo "Testando algoritmo de Bellman"
+echo "Testando algoritmo de Bellman-Ford"
 for i in instances/*.dat
 do
 	echo -e "\e[33mInstância $i\e[0m";
-	$bellman -f $i > temp;
 
+	$bellman -f $i > temp;
 	j=$(basename $i);
 	diff -w temp ./sp/$j > /dev/null ;
 	if [ $? -eq 0 ]; then

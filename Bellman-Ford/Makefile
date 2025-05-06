@@ -1,9 +1,9 @@
 CC = g++
 CFLAGS = -std=c++11
 
-all: bellman.bin
+all: Bellman-Ford.bin
 
-bellman.bin: bellman.cpp
-	$(CC) $(CFLAGS) bellman.cpp -o bellman.bin
+Bellman-Ford.bin: Bellman-Ford.cpp
+	$(CC) $(CFLAGS) Bellman-Ford.cpp -o Bellman-Ford.bin
 clean:
-	rm -f bellman.bin
+	rm -f Bellman-Ford.bin
