@@ -7,7 +7,6 @@ kruskal=./kruskal.bin
 dijkstra=./dijkstra.bin
 
 echo "Testando algoritmo de Kosaraju"
-
 for i in instances_scc/*.dat
 do
 	echo -e "\e[33mInstância $i\e[0m";
