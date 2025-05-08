@@ -106,5 +106,5 @@ Execute o programa com os parâmetros necessários:
 ```
 
 👨‍💻 Desenvolvedores :octocat:
-**João Gabriel Seixas Santos**
-**Marcos Mendonça**
+**{João Gabriel Seixas Santos}** 
+**{Marcos Mendonça}**
