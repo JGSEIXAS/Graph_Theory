@@ -17,18 +17,18 @@ pair<vector<pair<int, int>>, int> prim(vector<pair<int, int>> adj[], int N, int 
 {
     vector<pair<int, int>> result; 
 
-    int parent[N + 1];
-    int key[N + 1];
-    bool mstSet[N + 1];
+    vector<int> parent(N + 1), key(N + 1, INT_MAX);
+    vector<bool> mstSet(N + 1, false);
 
     for (int i = 1; i <= N; i++)
         key[i] = INT_MAX, mstSet[i] = false;
 
     priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
 
-    key[1] = 0;
-    parent[1] = -1;
-    pq.push({0, 1});
+    key[startVertex] = 0;
+    parent[startVertex] = -1;
+    pq.push({0, startVertex});
+
 
     while (!pq.empty())
     {
