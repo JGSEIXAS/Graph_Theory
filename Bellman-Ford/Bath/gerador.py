@@ -3,9 +3,9 @@ import random
 num_vertices = 500
 num_arestas = 100
 peso_min = -2
-peso_max = 20
+peso_max = 50
 
-with open("tlong_graph1.dat", "w") as f:
+with open("medium_graph10.dat", "w") as f:
     f.write(f"{num_vertices} {num_arestas}\n")
     arestas_criadas = set()
     while len(arestas_criadas) < num_arestas:

@@ -46,8 +46,9 @@ void bellmanFord(int vertices, vector<tuple<int, int, int>>& arestas, int origem
         fprintf(saida, "Erro: Ciclo negativo detectado no grafo!\n");
     } else {
         for (int i = 0; i < vertices; ++i) {
-            fprintf(saida, "%d: %d\n", i + 1, (dist[i] == INT_MAX ? -1 : dist[i]));
+            fprintf(saida, "%d:%d ", i + 1, (dist[i] == INT_MAX ? -1 : dist[i]));
         }
+        fprintf(saida, "\n");
     }
 }
 
